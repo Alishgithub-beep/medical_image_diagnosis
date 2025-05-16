@@ -219,7 +219,9 @@ class CTMRIDatasetProcessor:
             plt.savefig(save_path, dpi=300, bbox_inches='tight')
             logger.info(f"Visualization saved to {save_path}")
             
-        plt.show()import os
+        plt.show()
+import os
+
 import numpy as np
 import cv2
 import pydicom
